@@ -1,0 +1,28 @@
+{
+  "name": "btc-eckey",
+  "version": "1.0.0",
+  "description": "Simple script to create an elliptic curve secp256k1 keypair (bitcoin) and printing the public key hash along with the private key in WIF format ",
+  "main": "create.js",
+  "scripts": {
+    "pretest": "npm install",
+    "test": "node create.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kubris-lab/btc-eckey.git"
+  },
+  "keywords": [
+    "key",
+    "bitcoin",
+    "secp256k1"
+  ],
+  "author": "<kubris@kubris.com> (https://kubris.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kubris-lab/btc-eckey/issues"
+  },
+  "homepage": "https://github.com/kubris-lab/btc-eckey#readme",
+  "dependencies": {
+    "bitcore-message": "^1.0.4"
+  }
+}
